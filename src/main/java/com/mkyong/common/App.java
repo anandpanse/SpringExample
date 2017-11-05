@@ -11,6 +11,7 @@ public class App
 {
     public static void main( String[] args )
     {
+    	//First Step to add Bean
     	ApplicationContext context = new ClassPathXmlApplicationContext("Spring-Module.xml");
 
 		HelloWorld obj = (HelloWorld) context.getBean("helloBean");
